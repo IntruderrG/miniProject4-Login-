@@ -1,0 +1,117 @@
+* {
+  margin: 0px;
+  font-family: "Playwrite IT Moderna", cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* background-color: grey; */
+  /* background-image: url(../Images/edited.png);
+  background-repeat: no-repeat;
+  background-size: 100%; */
+}
+.navbar {
+  height: 12vh;
+  width: 100%;
+  /* background-color: rgb(201, 199, 199);
+  border-style: solid;
+  border-width: 2px;
+  border-top: 0px; */
+}
+.userform {
+  display: flex;
+  height: 90vh;
+  width: 100%;
+  /* background-color: green; */
+}
+.image {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: purple; */
+}
+.form {
+  height: 90vh;
+  width: 100%;
+  /* background-color: grey; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.innerForm {
+  height: 70%;
+  width: 80%;
+  /* background-color: pink; */
+}
+.form1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.username {
+  width: 100%;
+}
+.para1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.input1 {
+  width: 95%;
+  border: none;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  height: 60px;
+  font-size: 20px;
+  padding-left: 10px;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.para2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.input2 {
+  width: 95%;
+  border: none;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  height: 60px;
+  font-size: 20px;
+  padding-left: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.buttonDiv {
+  width: 100%;
+}
+.button {
+  width: 98%;
+  height: 70px;
+  margin-top: 20px;
+  font-size: 23px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  transition: all 0.3s;
+  box-shadow: 3px 10px 5px rgba(0, 0, 0, 0.4);
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.button:hover {
+  opacity: 95%;
+}
+.button:active {
+  opacity: 90%;
+}
+.image1 {
+  height: 450px;
+  width: 550px;
+  margin-bottom: 50px;
+}
